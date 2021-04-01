@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Information -->
+	<meta charset="UTF-8"/>
+
+	<!-- Style -->
+	<style>
+		p {
+			color: #FFFFFF;
+			font-family: "Calibri Light";
+			font-weight: 100;
+
+			font-size: 25px;
+			text-align: center;
+
+			line-height: 8vh;
+
+			opacity: 0.92;
+			box-sizing: border-box;
+
+			text-shadow: 0 0 10px #66ffff,
+						 0 0 40px #66ffff;
+		}
+		a {
+			text-decoration: none;
+			font-color: white;
+			font-size: 24px;
+			overflow: hidden;
+			transition: 0.2s;
+
+			width: 200px;
+
+			padding: 10px 20px;
+			margin: auto;
+
+			position: relative;
+			display: inline-block;
+
+			text-align: center;
+			justify-content: center;
+			align-items: center;
+			display: block;
+			
+			border: none;
+			color: #ffffff;
+			opacity: 0.9;
+			background: #66b2ff;
+			box-shadow: 0 0 10px #66b2ff,
+						0 0 20px #66b2ff,
+						0 0 40px #66b2ff,
+						0 0 20px #66b2ff;
+		}
+		a span {
+			position: absolute;
+			display: block;
+		}
+		a:hover {
+			color: black;
+			background: none;
+			box-shadow: none;
+		}
+		a span:nth-child(1){
+			top: 0;
+			left: 0%;
+			width: 100%;
+			height: 2px;
+			background: linear-gradient(90deg, transparent, #66b2ff);
+		}
+		a:hover span:nth-child(1) {
+			left: 100%;
+			transition: 1s;
+		}
+		a span:nth-child(2){
+			top: -100%;
+			right: 0;
+			width: 2px;
+			height: 100%;
+			background: linear-gradient(180deg, transparent, #66b2ff);
+		}
+		a:hover span:nth-child(2) {
+			top: 100%;
+			transition: 1s;
+			transition-delay: 0.25s;
+		}
+		a span:nth-child(3){
+			bottom: 0;
+			right: -100%;
+			width: 100%;
+			height: 2px;
+			background: linear-gradient(270deg, transparent, #66b2ff);
+		}
+		a:hover span:nth-child(3) {
+			right: 100%;
+			transition: 1s;
+			transition-delay: 0.5s;
+		}
+		a span:nth-child(4){
+			bottom: -100%;
+			left: 0;
+			width: 2px;
+			height: 100%;
+			background: linear-gradient(360deg, transparent, #66b2ff);
+		}
+		a:hover span:nth-child(4) {
+			bottom: 100%;
+			transition: 1s;
+			transition-delay: 0.75s;
+		}
+	</style>
+</head>
+<body>
+	    
+
+ 
+	<p>The earth is attacked by giant meteorites, and mankind is about to face extinction.!</p>
+	<p>In order to save the destiny of mankind, space organizations from various countries have worked together to build a spacecraft with</p>
+	<p>a high-energy laser cannon to counter meteorite attacks.</p>
+	<p>The rescue plan this time was named.</p>
+	<p>"Guardian One"</p>
+	<p>You have been assigned the captain of the current task, leading the remaining four elites to complete this task.</p>
+	<a href="gameplay.html"><span></span><span></span><span></span><span></span>Let's Move On</a>
+</body>
+</html>

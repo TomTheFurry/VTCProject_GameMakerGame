@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Information -->
+	<meta charset="UTF-8"/>
+	<title>Guardian One</title>
+	<link rel="icon" type="image/png" href="favicon.png"/>
+	<link rel="icon" type="image/png" href="favicon.png"/>
+
+	<!-- Style -->
+	<link rel="stylesheet" href="style.css"/>
+	<style>
+		body {
+			background-color: black;
+		}
+	</style>
+
+	<!-- Script -->
+	<script type="text/javascript">
+		//Window Resize Function
+		window.onresize = reportWindowSize;
+		function reportWindowSize() {
+			document.getElementById("width").innerHTML = window.innerWidth;
+			document.getElementById("height").innerHTML = window.innerHeight;
+			
+			//iframe Resize Function
+			document.getElementById("contentFrame").height = window.innerHeight+'px';
+		}
+
+		//Window Onload Function
+		function deleteclass() {
+			document.body.classList.remove("preload");
+		}
+	</script>
+</head>
+<body class="preload" onload="deleteclass()">
+	<!-- Top Container -->
+	<div style="width: 100vw; height: 100vh; background-image: url('bg.jpg'); background-size: 100% 100%">
+		<div style="height: 15px;"></div>	<!-- Margin -->
+		<hr style="width:70vw; border: 1px solid white; opacity: 0.5;"/>
+
+		<!-- Game Title -->
+		<div style="display: block; margin: auto; width: 50vw; height: 9%;">
+			<a href="intro.html" target="contentFrame" class="GameTitle"><span>GUARDIAN ONE</span></a>
+		</div>
+
+		<!-- Negotiation -->
+		<div style="margin: auto; margin-top: 35px	; margin-bottom: 20px; width: 70vw; height: 3%;">
+			<table width=100%>
+				<tr>
+					<td><a href="gameinfo.html" target="contentFrame" class="Negotiation"><span>GAME INFO</span></a></td>
+					<td><a href="gameplay.html" target="contentFrame" class="Negotiation"><span>GAME PLAY</span></a></td>
+					<td><a href="production.html" target="contentFrame" class="Negotiation"><span>PRODUCTION</span></a></td>
+				</tr>
+			</table>
+		</div>
+
+		<hr style="width:70vw;  margin-left:15vw; border: 1px solid white; opacity: 0.5;"/>
+
+		<!-- Content -->
+		<iframe src="intro.html" scrolling="no" name="contentFrame" style="display: block; border: 0px; width: 100vw; height: 70vh;"></iframe>
+	</div>
+
+	<!-- Bottom Container -->
+	<div style="margin-top: 10px; width: 100vw; height: 180px; background-color: black;">
+		<table style="display: block; margin: auto; width: 240px">
+			<tr>
+				<td><img src="1.gif" alt="1" title="RAINBOWFUCKERS" style="width: 70px; height: 70px; margin-right: 10px"/></td>
+				<td><img src="2.png" alt="2" title="CHINAGUY" style="width: 70px; height: 70px; margin-right: 10px"/></td>
+				<td><img src="3.png" alt="3" title="Wong" style="width: 70px; height: 70px; margin-right: 10px"/></td>
+			</tr>
+		</table>
+		<br/>
+		<p class="BottomText"><small>©2021 VTC IVE. We own the copyright.</small>
+		<p class="BottomText"><small>SUCKERS.</small>
+		<p class="BottomText"><small>VTC - Vocational Training Council.</small>
+		<p class="BottomText"><small>IVE - Hong Kong Institute of Vocational Education.</small>
+	</div>
+</body>
+</html>

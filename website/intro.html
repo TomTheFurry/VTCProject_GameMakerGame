@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Information -->
+	<meta charset="UTF-8"/>
+
+	<!-- Style -->
+	<style>
+		.title {
+			color: #FFFFFF;
+			font-family: "Calibri Light";
+			font-weight: 100;
+
+			margin: 0 0 0 0;
+
+			font-size: 50px;
+			text-align: center;
+
+			line-height: 67px;
+
+			opacity: 0.92;
+			box-sizing: border-box;
+
+			text-shadow: 0 0 10px #66ffff,
+						 0 0 40px #66ffff;
+		}
+
+		/*Button*/
+		.none {
+			font-size: 70px;
+			margin: 0 0 0 0;
+			color: transparent;
+			background: transparent;
+			box-shadow: transparent;
+		}
+		a {
+			text-decoration: none;
+		}
+		.green, .red{
+			color: white;
+			font-size: 24px;
+			overflow: hidden;
+			transition: 0.2s;
+
+			border: 1px solid rgba(255, 255, 255, .6);
+			padding: 10px 20px;
+			margin-top: 5%;
+			margin-bottom: 5%;
+
+			justify-content: center;
+			align-items: center;
+			display: flex;
+
+			text-shadow: 0 0 10px #CCE5FF;
+		}
+		.green:hover {
+			border: none;
+			color: #ffffff;
+			opacity: 0.9;
+			background: #33ff33;
+			box-shadow: 0 0 10px #33ff33,
+						0 0 20px #33ff33,
+						0 0 40px #33ff33,
+						0 0 20px #33ff33;
+		}
+		.red:hover {
+			border: none;
+			color: #ffffff;
+			opacity: 0.9;
+			background: #ff3333;
+			box-shadow: 0 0 10px #ff3333,
+						0 0 20px #ff3333,
+						0 0 40px #ff3333,
+						0 0 20px #ff3333;
+		}
+	</style>
+</head>
+<body>
+	<table style="margin: auto; margin-top: 15vh">
+		<tr><th colspan="3"><p class="title">Are You Ready?</p></td></tr>
+		<tr>
+			<td><p class="none" style="margin-top: 5vh;">w</p></td>
+			<td><a href="gameinfo.html" span class="green">YES</a></td>
+			<td><p class="none">w</p></td>
+		</tr>
+		<tr>
+			<td><p class="none">w</p></td>
+			<td><a href="" class="red">NO</a></td>
+			<td><p class="none">w</p></td>
+		</tr>
+	</table>
+</body>
+</html>

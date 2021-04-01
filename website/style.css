@@ -1,0 +1,76 @@
+/*Window*/
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+/*Title*/
+.GameTitle {
+	text-decoration: none;
+
+	margin-top: 30px;
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+	color: white;
+	font-size: 70px;
+	font-weight: 900;
+	letter-spacing: 5px;
+	cursor: pointer;
+}
+.GameTitle span {
+	transition: 0.5s;
+}
+.GameTitle:hover span{
+	text-shadow: 0 0 10px #FFFFFF,
+				 0 0 40px #FFFFFF,
+				 0 0 60px #FFFFFF,
+				 0 0 80px #FFFFFF,
+				 0 0 120px #FFFFFF,
+				 0 0 80px #FFFFFF;
+}
+
+/*Bar*/
+.Negotiation {
+	text-decoration: none;
+
+	color: #FFFFFF;
+	font-family: "Calibri Light";
+	font-weight: 300;
+	size: -10px;
+	font-size: 30px;
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+	opacity: 0.92;
+	box-sizing: border-box;
+}
+.Negotiation span {
+	transition: 0.3s;
+}
+.Negotiation:hover span {
+	text-shadow: 0 0 10px #CCE5FF,
+				 0 0 40px #CCE5FF,
+				 0 0 60px #CCE5FF,
+				 0 0 80px #CCE5FF,
+				 0 0 120px #CCE5FF;
+}
+
+/*Bottom*/
+.BottomText {
+	margin: 0 0 0 0;
+
+	color: white;
+	opacity: 0.7;
+	text-align: center;
+
+	font-family: "Calibri Light";
+	font-weight: 0;
+	size: -10px;
+}
